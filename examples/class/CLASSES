@@ -1,0 +1,16 @@
+# A class is a blueprint for creating object
+# Classes are declared using the 'class' keyword
+# Instances of a class are called 'objects'
+# All classes have a built-in __init__() function, which is always
+# ...executed when a class is being initiated
+# the __init__() function can be used to assign values to object
+# ...properties
+
+# The 'self' parameter is similar to the 'this' pointer in C++. It
+# ...refers to the current instance of the class. It has to be the
+# ...first parameter of any function in the class. It does not have to
+# ...named 'self'
+
+#you can delete properties of an object using the 'del' keyword
+
+#For an empty class definition, you must use the 'pass' keyword to avoid getting an error

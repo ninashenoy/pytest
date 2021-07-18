@@ -1,0 +1,25 @@
+
+In order to run all the test cases from the command line:
+# pytest -s test_example1.py
+
+In order to run one specific test case:
+# pytest -s test_example1.py -k <test case name>
+
+test_case1 and test_case2 should pass
+test_case 3 should fail and show the error
+
+When debugging on VS Code:
+The debugger will check all the tests that have been declared. Then,
+it will start executing the tests from the first breakpoint.
+
+To view print statements within tests, you must run the test(s) with the -s tag
+# pytest test_example1.py -s
+
+Fixtures are a way to provide parameters to tests. They are called when they are passed 
+as a parameter to the test function.
+
+The fixture test_case_name is called for all 3 test cases, and uses the os module to print
+the name of the test case.
+
+To generate a html file with a summary of the test results:
+# pytest --html=<name>.html test_example1.py 
